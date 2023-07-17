@@ -1,0 +1,96 @@
+body {
+    height: 100vh;
+    margin: 0;    
+    font-family: Roboto, serif;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;   
+    background-color: #6c819e;    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #9eadc5;
+}
+
+.header-text {
+    font-size: 24px;
+    font-weight: 500;
+    color: #F9FAF8;
+}
+
+.game-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #9eadc5;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 25px;
+    overflow: auto;              
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon-and-button {
+    display: flex;
+    flex-direction: column;         
+}
+
+.icon {
+    max-height: 400px;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+button {    
+    background: #1e82e0;
+    font-family: Roboto, serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 20px 50px;
+    margin: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;    
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.result-text {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    margin: 5px;  
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    padding: 0px;
+    background-color: #9eadc5;    
+}
+
+a {
+    text-decoration: underline;
+    color: #E5E7EB;
+    font-size: 12px;
+  }
